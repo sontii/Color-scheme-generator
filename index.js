@@ -34,7 +34,7 @@ function render() {
 	colors.map((color) => {
 		colorHtml += `<div 
                         class="color"
-                        style="background-color:${color};color:${color}"
+                        style="background-color:${color};"
                         >${color}
                         </div>`
 		namedColorHtml += `<div 

@@ -35,11 +35,14 @@ form {
 #color-schema-select {
     width: 100%;
     margin: 0 1rem;
+    line-height: 1.5rem;
+    font-size: 1.3rem;
 }
 
 #btn {
     width: 12rem;
     background-color: white;
+    font-size: 0.8rem;
 }
 
 #color-container,
@@ -51,7 +54,7 @@ form {
 
 .color{
     height: 20rem;
-    cursor: default;
+    font-size: 0;
 }
 
 .named-color{
