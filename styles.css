@@ -1,9 +1,13 @@
 body {
     margin: 0;
+    font-family: 'Inter' sans-serif;
+    font-weight: 500;
+    background-color: black;
 }
 
 #wrapper {
     margin: 0 auto;
+    padding-top: 0.2rem;
     max-height: 550px;
     max-width: 550px;
     background-color: white;
@@ -36,4 +40,26 @@ form {
 #btn {
     width: 12rem;
     background-color: white;
+}
+
+#color-container,
+#named-color-container
+{
+    display: grid;
+    grid-auto-flow: column;
+}
+
+.color{
+    height: 20rem;
+    cursor: default;
+}
+
+.named-color{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 2rem;
+    font-size: 0.8em;
+    line-height: 1.5em;
+    font-style: normal;
 }
